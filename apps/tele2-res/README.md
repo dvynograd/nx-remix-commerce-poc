@@ -8,7 +8,7 @@
 From your terminal:
 
 ```sh
-npx nx dev webapp
+npx nx dev tele2-res
 ```
 
 This starts your app in development mode, rebuilding assets on file changes.
@@ -18,13 +18,13 @@ This starts your app in development mode, rebuilding assets on file changes.
 First, build your app for production:
 
 ```sh
-npx nx build webapp
+npx nx build tele2-res
 ```
 
 Then run the app in production mode:
 
 ```sh
-npx nx start webapp
+npx nx start tele2-res
 ```
 
 Now you'll need to pick a host to deploy it to.
@@ -35,8 +35,8 @@ If you're familiar with deploying node applications, the built-in Remix app serv
 
 Make sure to deploy the output of `remix build`
 
-- `packages/webapp/build/`
-- `packages/webapp/public/build/`
+- `packages/tele2-res/build/`
+- `packages/tele2-res/public/build/`
 
 ### Using a Template
 

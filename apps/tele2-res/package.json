@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "webapp",
+  "name": "tele2-res",
   "description": "",
   "license": "",
   "scripts": {
@@ -14,7 +14,8 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "remix": "^1.0.6",
-    "@remix-run/serve": "^1.0.6"
+    "@remix-run/serve": "^1.0.6",
+    "@tele2poc/products": "libs/products/dist"
   },
   "devDependencies": {
     "@remix-run/dev": "^1.0.6",
